@@ -43,14 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Creational\Factory\Client.cs" />
+    <Compile Include="Creational\Factory\FactoryClient.cs" />
     <Compile Include="Creational\Factory\Creator\ACreator.cs" />
     <Compile Include="Creational\Factory\Creator\ConcreteCreator1.cs" />
     <Compile Include="Creational\Factory\Creator\ConcreteCreator2.cs" />
     <Compile Include="Creational\Factory\Product\ConcreteProduct1.cs" />
     <Compile Include="Creational\Factory\Product\ConcreteProduct2.cs" />
     <Compile Include="Creational\Factory\Product\IProduct.cs" />
-    <Compile Include="Creational\Singleton.cs" />
+    <Compile Include="Creational\Singleton\SingletonService.cs" />
+    <Compile Include="Creational\Singleton\SingletonClient.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

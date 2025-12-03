@@ -3,7 +3,7 @@ using System;
 
 namespace DesignPattern.Creational.Factory
 {
-    public class Client
+    public class FactoryClient
     {
         // The client code works with an instance of a concrete creator, albeit
         // through its base interface. As long as the client keeps working with

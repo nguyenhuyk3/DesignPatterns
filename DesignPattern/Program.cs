@@ -1,4 +1,5 @@
 ﻿using DesignPattern.Creational.Factory;
+using DesignPattern.Creational.Singleton;
 
 namespace DesignPattern
 {
@@ -6,7 +7,8 @@ namespace DesignPattern
     {
         static void Main(string[] args)
         {
-            new FactoryClient().Main();
+            new SingletonClient().Main();
+            //new FactoryClient().Main();
         }
     }
 }
