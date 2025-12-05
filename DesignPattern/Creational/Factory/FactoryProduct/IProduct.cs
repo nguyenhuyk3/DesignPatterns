@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Creational.Factory.Product
+﻿namespace DesignPattern.Creational.Factory.FactoryProduct
 {
     // The Product interface declares the operations that all concrete products
     // must implement.

@@ -1,6 +1,6 @@
-﻿using DesignPattern.Creational.Factory.Product;
+﻿using DesignPattern.Creational.Factory.FactoryProduct;
 
-namespace DesignPattern.Creational.Factory.Creator
+namespace DesignPattern.Creational.Factory.FactoryCreator
 {
     public class ConcreteCreator2 : ACreator
     {

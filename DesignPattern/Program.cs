@@ -9,8 +9,8 @@ namespace DesignPattern
         static void Main(string[] args)
         {
             //new SingletonClient().Main();
-            //new FactoryClient().Main();
-            new BuilderClient().Main();
+            new FactoryClient().Main();
+            //new BuilderClient().Main();
         }
     }
 }

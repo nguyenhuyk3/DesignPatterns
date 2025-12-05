@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Creational.Factory.Product
+﻿namespace DesignPattern.Creational.Factory.FactoryProduct
 {
     public class ConcreteProduct1 : IProduct
     {
