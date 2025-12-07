@@ -1,6 +1,6 @@
-﻿using DesignPattern.Creational.Factory.FactoryProduct;
+﻿using DesignPattern.Creational.Factory.FProduct.FIProduct;
 
-namespace DesignPattern.Creational.Factory.FactoryCreator
+namespace DesignPattern.Creational.Factory.FCreator.FACreator
 {
     // The Creator class declares the factory method that is supposed to return
     // an object of a Product class. The Creator's subclasses usually provide

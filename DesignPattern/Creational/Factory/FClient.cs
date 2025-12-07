@@ -1,9 +1,10 @@
-﻿using DesignPattern.Creational.Factory.FactoryCreator;
+﻿using DesignPattern.Creational.Factory.FCreator.FACreator;
+using DesignPattern.Creational.Factory.FCreator.FConcreteCreator;
 using System;
 
 namespace DesignPattern.Creational.Factory
 {
-    public class FactoryClient
+    public class FClient
     {
         // The client code works with an instance of a concrete creator, albeit
         // through its base interface. As long as the client keeps working with

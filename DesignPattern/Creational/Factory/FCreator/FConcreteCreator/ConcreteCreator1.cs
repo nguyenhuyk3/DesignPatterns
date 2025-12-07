@@ -1,6 +1,10 @@
-﻿using DesignPattern.Creational.Factory.FactoryProduct;
+﻿
 
-namespace DesignPattern.Creational.Factory.FactoryCreator
+using DesignPattern.Creational.Factory.FCreator.FACreator;
+using DesignPattern.Creational.Factory.FProduct.FIConcreteProduct;
+using DesignPattern.Creational.Factory.FProduct.FIProduct;
+
+namespace DesignPattern.Creational.Factory.FCreator.FConcreteCreator
 {
     public class ConcreteCreator1 : ACreator
     {
