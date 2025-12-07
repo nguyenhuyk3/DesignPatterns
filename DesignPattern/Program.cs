@@ -1,6 +1,4 @@
-﻿using DesignPattern.Creational.Builder;
-using DesignPattern.Creational.Factory;
-using DesignPattern.Creational.Singleton;
+﻿using DesignPattern.Creational.AbstractFactory;
 
 namespace DesignPattern
 {
@@ -9,8 +7,9 @@ namespace DesignPattern
         static void Main(string[] args)
         {
             //new SingletonClient().Main();
-            new FactoryClient().Main();
+            //new FactoryClient().Main();
             //new BuilderClient().Main();
+            new AFClient().Main();
         }
     }
 }

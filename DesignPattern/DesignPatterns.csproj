@@ -43,6 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creational\AbstractFactory\AFAbstractFactory\AFConcreteFactory\ConcreteFactory1.cs" />
+    <Compile Include="Creational\AbstractFactory\AFAbstractFactory\AFConcreteFactory\ConcreteFactory2.cs" />
+    <Compile Include="Creational\AbstractFactory\AFAbstractFactory\AFIAbstractFactory\IAbstractFactory.cs" />
+    <Compile Include="Creational\AbstractFactory\AFClient.cs" />
+    <Compile Include="Creational\AbstractFactory\AFProduct\AFConcreteProduct\ConcreteProductA1.cs" />
+    <Compile Include="Creational\AbstractFactory\AFProduct\AFConcreteProduct\ConcreteProductA2.cs" />
+    <Compile Include="Creational\AbstractFactory\AFProduct\AFConcreteProduct\ConcreteProductB1.cs" />
+    <Compile Include="Creational\AbstractFactory\AFProduct\AFConcreteProduct\ConcreteProductB2.cs" />
+    <Compile Include="Creational\AbstractFactory\AFProduct\AFIProduct\IAbstractProductA.cs" />
+    <Compile Include="Creational\AbstractFactory\AFProduct\AFIProduct\IAbstractProductB.cs" />
     <Compile Include="Creational\Builder\BuilderClient.cs" />
     <Compile Include="Creational\Builder\BuilderDirector\Director.cs" />
     <Compile Include="Creational\Builder\BuilderBuilder\ConcreteBuilder.cs" />
