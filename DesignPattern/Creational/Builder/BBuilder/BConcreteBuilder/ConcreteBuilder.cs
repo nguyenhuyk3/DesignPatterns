@@ -1,12 +1,13 @@
-﻿using DesignPattern.Creational.Builder.BuilderProduct;
+﻿using DesignPattern.Creational.Builder.BBuilder.BIBuilder;
+using DesignPattern.Creational.Builder.BuilderProduct;
 
-namespace DesignPattern.Creational.Builder.BuilderBuilder
+namespace DesignPattern.Creational.Builder.BBuilder.BConcreteBuilder
 {
     // The Concrete Builder classes follow the Builder interface
     // and provide specific implementations
     // of the building steps. Your program may have
     // several variations of Builders, implemented differently.
-    internal class ConcreteBuilder : IBuilder
+    public class ConcreteBuilder : IBuilder
     {
         private Product _product = new Product();
 

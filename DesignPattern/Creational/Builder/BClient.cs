@@ -1,10 +1,10 @@
-﻿using DesignPattern.Creational.Builder.BuilderBuilder;
+﻿using DesignPattern.Creational.Builder.BBuilder.BConcreteBuilder;
 using DesignPattern.Creational.Builder.BuilderDirector;
 using System;
 
 namespace DesignPattern.Creational.Builder
 {
-    public class BuilderClient
+    public class BClient
     {
         public void Main()
         {

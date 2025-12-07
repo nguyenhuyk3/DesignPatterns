@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Creational.Builder.BuilderBuilder
+﻿namespace DesignPattern.Creational.Builder.BBuilder.BIBuilder
 {
     // The Builder interface specifies methods
     // for creating the different parts

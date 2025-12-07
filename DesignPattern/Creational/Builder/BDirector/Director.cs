@@ -1,4 +1,4 @@
-﻿using DesignPattern.Creational.Builder.BuilderBuilder;
+﻿using DesignPattern.Creational.Builder.BBuilder.BIBuilder;
 
 namespace DesignPattern.Creational.Builder.BuilderDirector
 {

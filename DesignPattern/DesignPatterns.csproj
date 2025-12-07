@@ -53,11 +53,11 @@
     <Compile Include="Creational\AbstractFactory\AFProduct\AFConcreteProduct\ConcreteProductB2.cs" />
     <Compile Include="Creational\AbstractFactory\AFProduct\AFIProduct\IAbstractProductA.cs" />
     <Compile Include="Creational\AbstractFactory\AFProduct\AFIProduct\IAbstractProductB.cs" />
-    <Compile Include="Creational\Builder\BuilderClient.cs" />
-    <Compile Include="Creational\Builder\BuilderDirector\Director.cs" />
-    <Compile Include="Creational\Builder\BuilderBuilder\ConcreteBuilder.cs" />
-    <Compile Include="Creational\Builder\BuilderBuilder\IBuilder.cs" />
-    <Compile Include="Creational\Builder\BuilderProduct\Product.cs" />
+    <Compile Include="Creational\Builder\BBuilder\BConcreteBuilder\ConcreteBuilder.cs" />
+    <Compile Include="Creational\Builder\BBuilder\BIBuilder\IBuilder.cs" />
+    <Compile Include="Creational\Builder\BClient.cs" />
+    <Compile Include="Creational\Builder\BDirector\Director.cs" />
+    <Compile Include="Creational\Builder\BProduct\Product.cs" />
     <Compile Include="Creational\Factory\FactoryClient.cs" />
     <Compile Include="Creational\Factory\FactoryCreator\ACreator.cs" />
     <Compile Include="Creational\Factory\FactoryCreator\ConcreteCreator1.cs" />
