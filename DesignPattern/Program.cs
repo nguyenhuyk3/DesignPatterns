@@ -1,4 +1,4 @@
-﻿using DesignPattern.Creational.Factory;
+﻿using DesignPattern.Creational.PrototypeDP;
 
 namespace DesignPattern
 {
@@ -7,9 +7,10 @@ namespace DesignPattern
         static void Main(string[] args)
         {
             //new SingletonClient().Main();
-            new FClient().Main();
+            //new FClient().Main();
             //new BClient().Main();
             //new AFClient().Main();
+            new PDPClient().Main();
         }
     }
 }

@@ -65,6 +65,9 @@
     <Compile Include="Creational\Factory\FProduct\FIConcreteProduct\ConcreteProduct1.cs" />
     <Compile Include="Creational\Factory\FProduct\FIConcreteProduct\ConcreteProduct2.cs" />
     <Compile Include="Creational\Factory\FProduct\FIProduct\IProduct.cs" />
+    <Compile Include="Creational\PrototypeDP\IdInfo.cs" />
+    <Compile Include="Creational\PrototypeDP\PDPClient.cs" />
+    <Compile Include="Creational\PrototypeDP\Person.cs" />
     <Compile Include="Creational\Singleton\SingletonService.cs" />
     <Compile Include="Creational\Singleton\SingletonClient.cs" />
     <Compile Include="Program.cs" />
