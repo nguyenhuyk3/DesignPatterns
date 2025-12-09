@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\Strategy\SClient.cs" />
+    <Compile Include="Behavioral\Strategy\SContext\Context.cs" />
+    <Compile Include="Behavioral\Strategy\SStrategy\SConcreteStrategy\ConcreteStrategyA.cs" />
+    <Compile Include="Behavioral\Strategy\SStrategy\SConcreteStrategy\ConcreteStrategyB.cs" />
+    <Compile Include="Behavioral\Strategy\SStrategy\SIStrategy\IStrategy.cs" />
     <Compile Include="Creational\AbstractFactory\AFAbstractFactory\AFConcreteFactory\ConcreteFactory1.cs" />
     <Compile Include="Creational\AbstractFactory\AFAbstractFactory\AFConcreteFactory\ConcreteFactory2.cs" />
     <Compile Include="Creational\AbstractFactory\AFAbstractFactory\AFIAbstractFactory\IAbstractFactory.cs" />

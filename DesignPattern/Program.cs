@@ -1,4 +1,4 @@
-﻿using DesignPattern.Creational.PrototypeDP;
+﻿using DesignPattern.Behavioral.Strategy;
 
 namespace DesignPattern
 {
@@ -10,7 +10,8 @@ namespace DesignPattern
             //new FClient().Main();
             //new BClient().Main();
             //new AFClient().Main();
-            new PDPClient().Main();
+            //new PDPClient().Main();
+            new SClient().Main();
         }
     }
 }
