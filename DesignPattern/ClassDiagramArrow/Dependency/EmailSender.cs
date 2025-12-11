@@ -16,7 +16,6 @@ namespace DesignPattern.ClassDiagramArrow.Dependency
             // Sau khi method kết thúc, không còn giữ reference đến email
         }
 
-
         // Dependency: Tạo đối tượng Email bên trong method
         public Email TaoEmailChaoMung(string nguoiNhan)
         {
