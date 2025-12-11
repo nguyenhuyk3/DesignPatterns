@@ -6,6 +6,8 @@ namespace DesignPattern.ClassDiagramArrow.Association
     {
         public void Main()
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
             // Tạo đối tượng Bệnh nhân (độc lập)
             Patient patientHung = new Patient("Hùng", "Cảm cúm");
 
