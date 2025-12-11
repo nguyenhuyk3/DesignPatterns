@@ -1,4 +1,4 @@
-﻿using DesignPattern.Behavioral.State;
+﻿using DesignPattern.ClassDiagramArrow.Association;
 
 namespace DesignPattern
 {
@@ -13,7 +13,8 @@ namespace DesignPattern
             //new PDPClient().Main();
             //new SClient().Main();
             //new OClient().Main();
-            new SClient().Main();
+            //new SClient().Main();
+            new AClient().Main();
         }
     }
 }

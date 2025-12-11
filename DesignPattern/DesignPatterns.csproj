@@ -59,6 +59,9 @@
     <Compile Include="Behavioral\Strategy\SStrategy\SConcreteStrategy\ConcreteStrategyA.cs" />
     <Compile Include="Behavioral\Strategy\SStrategy\SConcreteStrategy\ConcreteStrategyB.cs" />
     <Compile Include="Behavioral\Strategy\SStrategy\SIStrategy\IStrategy.cs" />
+    <Compile Include="ClassDiagramArrow\Association\AClient.cs" />
+    <Compile Include="ClassDiagramArrow\Association\Doctor.cs" />
+    <Compile Include="ClassDiagramArrow\Association\Patient.cs" />
     <Compile Include="Creational\AbstractFactory\AFAbstractFactory\AFConcreteFactory\ConcreteFactory1.cs" />
     <Compile Include="Creational\AbstractFactory\AFAbstractFactory\AFConcreteFactory\ConcreteFactory2.cs" />
     <Compile Include="Creational\AbstractFactory\AFAbstractFactory\AFIAbstractFactory\IAbstractFactory.cs" />
