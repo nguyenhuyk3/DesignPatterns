@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\Observer\OClient.cs" />
+    <Compile Include="Behavioral\Observer\OObserver\OConcreteObserver\ConcreteObserverA.cs" />
+    <Compile Include="Behavioral\Observer\OObserver\OConcreteObserver\ConcreteObserverB.cs" />
+    <Compile Include="Behavioral\Observer\OObserver\OIObserver\IObserver.cs" />
+    <Compile Include="Behavioral\Observer\OSubject\OConcreteSubject\Subject.cs" />
+    <Compile Include="Behavioral\Observer\OSubject\OISubject\ISubject.cs" />
     <Compile Include="Behavioral\Strategy\SClient.cs" />
     <Compile Include="Behavioral\Strategy\SContext\Context.cs" />
     <Compile Include="Behavioral\Strategy\SStrategy\SConcreteStrategy\ConcreteStrategyA.cs" />
