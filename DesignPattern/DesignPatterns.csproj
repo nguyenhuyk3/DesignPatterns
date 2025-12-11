@@ -49,6 +49,11 @@
     <Compile Include="Behavioral\Observer\OObserver\OIObserver\IObserver.cs" />
     <Compile Include="Behavioral\Observer\OSubject\OConcreteSubject\Subject.cs" />
     <Compile Include="Behavioral\Observer\OSubject\OISubject\ISubject.cs" />
+    <Compile Include="Behavioral\State\SClient.cs" />
+    <Compile Include="Behavioral\State\SContext\Context.cs" />
+    <Compile Include="Behavioral\State\SState\SAState\AState.cs" />
+    <Compile Include="Behavioral\State\SState\SConcreteState\ConcreteStateA.cs" />
+    <Compile Include="Behavioral\State\SState\SConcreteState\ConcreteStateB.cs" />
     <Compile Include="Behavioral\Strategy\SClient.cs" />
     <Compile Include="Behavioral\Strategy\SContext\Context.cs" />
     <Compile Include="Behavioral\Strategy\SStrategy\SConcreteStrategy\ConcreteStrategyA.cs" />

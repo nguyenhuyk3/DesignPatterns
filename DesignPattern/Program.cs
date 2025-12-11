@@ -1,4 +1,4 @@
-﻿using DesignPattern.Behavioral.Observer;
+﻿using DesignPattern.Behavioral.State;
 
 namespace DesignPattern
 {
@@ -12,7 +12,8 @@ namespace DesignPattern
             //new AFClient().Main();
             //new PDPClient().Main();
             //new SClient().Main();
-            new OClient().Main();
+            //new OClient().Main();
+            new SClient().Main();
         }
     }
 }
