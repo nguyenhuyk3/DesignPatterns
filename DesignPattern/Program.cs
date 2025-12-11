@@ -1,4 +1,4 @@
-﻿using DesignPattern.ClassDiagramArrow.Aggregation;
+﻿using DesignPattern.ClassDiagramArrow.Composition;
 
 namespace DesignPattern
 {
@@ -16,7 +16,8 @@ namespace DesignPattern
             //new SClient().Main();
             //new AClient().Main();
             //new DClient().Main();
-            new AClient().Main();
+            //new AClient().Main();
+            new CClient().Main();
         }
     }
 }

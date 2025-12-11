@@ -65,6 +65,9 @@
     <Compile Include="ClassDiagramArrow\Association\AClient.cs" />
     <Compile Include="ClassDiagramArrow\Association\Doctor.cs" />
     <Compile Include="ClassDiagramArrow\Association\Patient.cs" />
+    <Compile Include="ClassDiagramArrow\Composition\CClient.cs" />
+    <Compile Include="ClassDiagramArrow\Composition\Nha.cs" />
+    <Compile Include="ClassDiagramArrow\Composition\Phong.cs" />
     <Compile Include="ClassDiagramArrow\Dependency\DClient.cs" />
     <Compile Include="ClassDiagramArrow\Dependency\Email.cs" />
     <Compile Include="ClassDiagramArrow\Dependency\EmailSender.cs" />
