@@ -1,4 +1,4 @@
-﻿using DesignPattern.ClassDiagramArrow.Association;
+﻿using DesignPattern.ClassDiagramArrow.Dependency;
 
 namespace DesignPattern
 {
@@ -14,7 +14,8 @@ namespace DesignPattern
             //new SClient().Main();
             //new OClient().Main();
             //new SClient().Main();
-            new AClient().Main();
+            //new AClient().Main();
+            new DClient().Main();
         }
     }
 }

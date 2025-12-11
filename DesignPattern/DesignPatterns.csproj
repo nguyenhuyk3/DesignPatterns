@@ -62,6 +62,9 @@
     <Compile Include="ClassDiagramArrow\Association\AClient.cs" />
     <Compile Include="ClassDiagramArrow\Association\Doctor.cs" />
     <Compile Include="ClassDiagramArrow\Association\Patient.cs" />
+    <Compile Include="ClassDiagramArrow\Dependency\DClient.cs" />
+    <Compile Include="ClassDiagramArrow\Dependency\Email.cs" />
+    <Compile Include="ClassDiagramArrow\Dependency\EmailSender.cs" />
     <Compile Include="Creational\AbstractFactory\AFAbstractFactory\AFConcreteFactory\ConcreteFactory1.cs" />
     <Compile Include="Creational\AbstractFactory\AFAbstractFactory\AFConcreteFactory\ConcreteFactory2.cs" />
     <Compile Include="Creational\AbstractFactory\AFAbstractFactory\AFIAbstractFactory\IAbstractFactory.cs" />
