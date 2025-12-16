@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\Iterator\IClient.cs" />
+    <Compile Include="Behavioral\Iterator\IConcreteCollection\WordsCollection.cs" />
+    <Compile Include="Behavioral\Iterator\IIterator\IAIterator\AIterator.cs" />
+    <Compile Include="Behavioral\Iterator\IIterator\IAIterator\AIteratorAggregate.cs" />
+    <Compile Include="Behavioral\Iterator\IIterator\IConcreteIterator\AlphabeticalOrderIterator.cs" />
     <Compile Include="Behavioral\Observer\OClient.cs" />
     <Compile Include="Behavioral\Observer\OObserver\OConcreteObserver\ConcreteObserverA.cs" />
     <Compile Include="Behavioral\Observer\OObserver\OConcreteObserver\ConcreteObserverB.cs" />

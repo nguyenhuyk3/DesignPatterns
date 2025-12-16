@@ -1,4 +1,4 @@
-﻿using DesignPattern.ClassDiagramArrow.Composition;
+﻿using DesignPattern.Behavioral.Iterator;
 
 namespace DesignPattern
 {
@@ -17,7 +17,8 @@ namespace DesignPattern
             //new AClient().Main();
             //new DClient().Main();
             //new AClient().Main();
-            new CClient().Main();
+            //new CClient().Main();
+            new IClient().Main();
         }
     }
 }
