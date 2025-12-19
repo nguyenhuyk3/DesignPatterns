@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\Command\CClient.cs" />
+    <Compile Include="Behavioral\Command\CCommand\CConcreteCommand\ComplexCommand.cs" />
+    <Compile Include="Behavioral\Command\CCommand\CConcreteCommand\SimpleCommand.cs" />
+    <Compile Include="Behavioral\Command\CCommand\CICommand\ICommand.cs" />
+    <Compile Include="Behavioral\Command\CInvoker\Invoker.cs" />
+    <Compile Include="Behavioral\Command\CReceiver\Receiver.cs" />
     <Compile Include="Behavioral\Iterator\IClient.cs" />
     <Compile Include="Behavioral\Iterator\IConcreteCollection\WordsCollection.cs" />
     <Compile Include="Behavioral\Iterator\IIterator\IAIterator\AIterator.cs" />

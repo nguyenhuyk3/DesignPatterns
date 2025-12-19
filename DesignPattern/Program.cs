@@ -1,4 +1,4 @@
-﻿using DesignPattern.Behavioral.Iterator;
+﻿using DesignPattern.Behavioral.Command;
 
 namespace DesignPattern
 {
@@ -18,7 +18,8 @@ namespace DesignPattern
             //new DClient().Main();
             //new AClient().Main();
             //new CClient().Main();
-            new IClient().Main();
+            //new IClient().Main();
+            new CClient().Main();
         }
     }
 }
