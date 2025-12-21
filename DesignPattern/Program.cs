@@ -1,4 +1,4 @@
-﻿using DesignPattern.Behavioral.Command;
+﻿using DesignPattern.Behavioral.Visitor;
 
 namespace DesignPattern
 {
@@ -19,7 +19,9 @@ namespace DesignPattern
             //new AClient().Main();
             //new CClient().Main();
             //new IClient().Main();
-            new CClient().Main();
+            //new CClient().Main();
+            //new MClient().Main();
+            new VVClient().Main();
         }
     }
 }

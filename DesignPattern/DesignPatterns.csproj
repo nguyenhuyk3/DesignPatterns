@@ -54,6 +54,11 @@
     <Compile Include="Behavioral\Iterator\IIterator\IAIterator\AIterator.cs" />
     <Compile Include="Behavioral\Iterator\IIterator\IAIterator\AIteratorAggregate.cs" />
     <Compile Include="Behavioral\Iterator\IIterator\IConcreteIterator\AlphabeticalOrderIterator.cs" />
+    <Compile Include="Behavioral\Memento\MCaretaker\Caretaker.cs" />
+    <Compile Include="Behavioral\Memento\MClient.cs" />
+    <Compile Include="Behavioral\Memento\MMemento\MConcreteMemento\ConcreteMemento.cs" />
+    <Compile Include="Behavioral\Memento\MMemento\MIMemento\IMemento.cs" />
+    <Compile Include="Behavioral\Memento\MOriginator\Originator.cs" />
     <Compile Include="Behavioral\Observer\OClient.cs" />
     <Compile Include="Behavioral\Observer\OObserver\OConcreteObserver\ConcreteObserverA.cs" />
     <Compile Include="Behavioral\Observer\OObserver\OConcreteObserver\ConcreteObserverB.cs" />
@@ -70,6 +75,14 @@
     <Compile Include="Behavioral\Strategy\SStrategy\SConcreteStrategy\ConcreteStrategyA.cs" />
     <Compile Include="Behavioral\Strategy\SStrategy\SConcreteStrategy\ConcreteStrategyB.cs" />
     <Compile Include="Behavioral\Strategy\SStrategy\SIStrategy\IStrategy.cs" />
+    <Compile Include="Behavioral\Visitor\VVClient.cs" />
+    <Compile Include="Behavioral\Visitor\VClient\Client.cs" />
+    <Compile Include="Behavioral\Visitor\VComponent\VConcreteComponent\ConcreteComponentA.cs" />
+    <Compile Include="Behavioral\Visitor\VComponent\VConcreteComponent\ConcreteComponentB.cs" />
+    <Compile Include="Behavioral\Visitor\VComponent\VIComponent\IComponent.cs" />
+    <Compile Include="Behavioral\Visitor\VVisitor\VConcreteVisitor\ConcreteVisitor1.cs" />
+    <Compile Include="Behavioral\Visitor\VVisitor\VConcreteVisitor\ConcreteVisitor2.cs" />
+    <Compile Include="Behavioral\Visitor\VVisitor\VIVisitor\IVisitor.cs" />
     <Compile Include="ClassDiagramArrow\Aggregation\AClient.cs" />
     <Compile Include="ClassDiagramArrow\Aggregation\GiaoVien.cs" />
     <Compile Include="ClassDiagramArrow\Aggregation\TruongHoc.cs" />
