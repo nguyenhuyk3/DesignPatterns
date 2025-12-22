@@ -54,6 +54,12 @@
     <Compile Include="Behavioral\Iterator\IIterator\IAIterator\AIterator.cs" />
     <Compile Include="Behavioral\Iterator\IIterator\IAIterator\AIteratorAggregate.cs" />
     <Compile Include="Behavioral\Iterator\IIterator\IConcreteIterator\AlphabeticalOrderIterator.cs" />
+    <Compile Include="Behavioral\Mediator\MClient.cs" />
+    <Compile Include="Behavioral\Mediator\MComponent\MBComponent\BaseComponent.cs" />
+    <Compile Include="Behavioral\Mediator\MComponent\MConcreteComponent\Component1.cs" />
+    <Compile Include="Behavioral\Mediator\MComponent\MConcreteComponent\Component2.cs" />
+    <Compile Include="Behavioral\Mediator\MMediator\MConcreteMediator\ConcreteMediator.cs" />
+    <Compile Include="Behavioral\Mediator\MMediator\MIMediator\IMediator.cs" />
     <Compile Include="Behavioral\Memento\MCaretaker\Caretaker.cs" />
     <Compile Include="Behavioral\Memento\MClient.cs" />
     <Compile Include="Behavioral\Memento\MMemento\MConcreteMemento\ConcreteMemento.cs" />
