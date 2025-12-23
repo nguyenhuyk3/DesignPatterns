@@ -81,6 +81,11 @@
     <Compile Include="Behavioral\Strategy\SStrategy\SConcreteStrategy\ConcreteStrategyA.cs" />
     <Compile Include="Behavioral\Strategy\SStrategy\SConcreteStrategy\ConcreteStrategyB.cs" />
     <Compile Include="Behavioral\Strategy\SStrategy\SIStrategy\IStrategy.cs" />
+    <Compile Include="Behavioral\TemplateMethod\TAConcreateClass\ConcreteClass1.cs" />
+    <Compile Include="Behavioral\TemplateMethod\TAConcreateClass\ConcreteClass2.cs" />
+    <Compile Include="Behavioral\TemplateMethod\TMAbstractClass\AbstractClass.cs" />
+    <Compile Include="Behavioral\TemplateMethod\TMClent\Client.cs" />
+    <Compile Include="Behavioral\TemplateMethod\TMClient.cs" />
     <Compile Include="Behavioral\Visitor\VVClient.cs" />
     <Compile Include="Behavioral\Visitor\VClient\Client.cs" />
     <Compile Include="Behavioral\Visitor\VComponent\VConcreteComponent\ConcreteComponentA.cs" />

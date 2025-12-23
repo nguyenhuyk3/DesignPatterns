@@ -1,4 +1,4 @@
-﻿using DesignPattern.Behavioral.Mediator;
+﻿using DesignPattern.Behavioral.TemplateMethod;
 
 namespace DesignPattern
 {
@@ -22,7 +22,8 @@ namespace DesignPattern
             //new CClient().Main();
             //new MClient().Main();
             //new VVClient().Main();
-            new MClient().Main();
+            //new MClient().Main();
+            new TMClient().Main();
         }
     }
 }
