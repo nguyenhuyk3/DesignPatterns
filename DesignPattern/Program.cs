@@ -1,4 +1,4 @@
-﻿using DesignPattern.Behavioral.Visitor;
+﻿using DesignPattern.Behavioral.ChainOfResponsibility;
 
 namespace DesignPattern
 {
@@ -21,7 +21,8 @@ namespace DesignPattern
             //new IClient().Main();
             //new CClient().Main();
             //new MClient().Main();
-            new VVClient().Main();
+            //new VVClient().Main();
+            new CClient().Main();
         }
     }
 }

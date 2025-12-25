@@ -43,6 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioral\ChainOfResponsibility\CAHandler\AbstractHandler.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\CClient.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\CClientCode\ClientCode.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\CConcreteHandler\DogHandler.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\CConcreteHandler\MonkeyHandler.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\CConcreteHandler\SquirrelHandler.cs" />
+    <Compile Include="Behavioral\ChainOfResponsibility\CIHandler\IHandler.cs" />
     <Compile Include="Behavioral\Command\CClient.cs" />
     <Compile Include="Behavioral\Command\CCommand\CConcreteCommand\ComplexCommand.cs" />
     <Compile Include="Behavioral\Command\CCommand\CConcreteCommand\SimpleCommand.cs" />
