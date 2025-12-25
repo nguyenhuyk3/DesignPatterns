@@ -61,6 +61,12 @@
     <Compile Include="Behavioral\Iterator\IIterator\IAIterator\AIterator.cs" />
     <Compile Include="Behavioral\Iterator\IIterator\IAIterator\AIteratorAggregate.cs" />
     <Compile Include="Behavioral\Iterator\IIterator\IConcreteIterator\AlphabeticalOrderIterator.cs" />
+    <Compile Include="Behavioral\Mediator\MClient.cs" />
+    <Compile Include="Behavioral\Mediator\MComponent\MBComponent\BaseComponent.cs" />
+    <Compile Include="Behavioral\Mediator\MComponent\MConcreteComponent\Component1.cs" />
+    <Compile Include="Behavioral\Mediator\MComponent\MConcreteComponent\Component2.cs" />
+    <Compile Include="Behavioral\Mediator\MMediator\MConcreteMediator\ConcreteMediator.cs" />
+    <Compile Include="Behavioral\Mediator\MMediator\MIMediator\IMediator.cs" />
     <Compile Include="Behavioral\Memento\MCaretaker\Caretaker.cs" />
     <Compile Include="Behavioral\Memento\MClient.cs" />
     <Compile Include="Behavioral\Memento\MMemento\MConcreteMemento\ConcreteMemento.cs" />
@@ -82,6 +88,11 @@
     <Compile Include="Behavioral\Strategy\SStrategy\SConcreteStrategy\ConcreteStrategyA.cs" />
     <Compile Include="Behavioral\Strategy\SStrategy\SConcreteStrategy\ConcreteStrategyB.cs" />
     <Compile Include="Behavioral\Strategy\SStrategy\SIStrategy\IStrategy.cs" />
+    <Compile Include="Behavioral\TemplateMethod\TAConcreateClass\ConcreteClass1.cs" />
+    <Compile Include="Behavioral\TemplateMethod\TAConcreateClass\ConcreteClass2.cs" />
+    <Compile Include="Behavioral\TemplateMethod\TMAbstractClass\AbstractClass.cs" />
+    <Compile Include="Behavioral\TemplateMethod\TMClent\Client.cs" />
+    <Compile Include="Behavioral\TemplateMethod\TMClient.cs" />
     <Compile Include="Behavioral\Visitor\VVClient.cs" />
     <Compile Include="Behavioral\Visitor\VClient\Client.cs" />
     <Compile Include="Behavioral\Visitor\VComponent\VConcreteComponent\ConcreteComponentA.cs" />
