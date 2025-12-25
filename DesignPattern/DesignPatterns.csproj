@@ -142,6 +142,10 @@
     <Compile Include="Creational\Singleton\SingletonClient.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structureral\Adapter\AAdaptee\Adaptee.cs" />
+    <Compile Include="Structureral\Adapter\AAdapter\Adapter.cs" />
+    <Compile Include="Structureral\Adapter\AClient.cs" />
+    <Compile Include="Structureral\Adapter\ATarget\AITarget\ITarget.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

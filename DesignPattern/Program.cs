@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-﻿using DesignPattern.Behavioral.ChainOfResponsibility;
-=======
-﻿using DesignPattern.Behavioral.TemplateMethod;
->>>>>>> 9829f582e714dd1d791aed66248815236844ea95
+using DesignPattern.Structureral.Adapter;
 
 namespace DesignPattern
 {
@@ -26,12 +22,8 @@ namespace DesignPattern
             //new CClient().Main();
             //new MClient().Main();
             //new VVClient().Main();
-<<<<<<< HEAD
-            new CClient().Main();
-=======
-            //new MClient().Main();
-            new TMClient().Main();
->>>>>>> 9829f582e714dd1d791aed66248815236844ea95
+            //new TMClient().Main();
+            new AClient().Main();
         }
     }
 }
