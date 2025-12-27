@@ -143,9 +143,16 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structureral\Adapter\AAdaptee\Adaptee.cs" />
-    <Compile Include="Structureral\Adapter\AAdapter\Adapter.cs" />
+    <Compile Include="Structureral\Adapter\AAdapter\Adapter1.cs" />
     <Compile Include="Structureral\Adapter\AClient.cs" />
     <Compile Include="Structureral\Adapter\ATarget\AITarget\ITarget.cs" />
+    <Compile Include="Structureral\Bridge\BAbstraction\BAAbstraction\Abstraction.cs" />
+    <Compile Include="Structureral\Bridge\BAbstraction\BAConcreateAbstration\ExtendedAbstraction.cs" />
+    <Compile Include="Structureral\Bridge\BBClient.cs" />
+    <Compile Include="Structureral\Bridge\BClient\Client.cs" />
+    <Compile Include="Structureral\Bridge\BImplementation\BIConcreteImplementation\ConcreteImplementationA.cs" />
+    <Compile Include="Structureral\Bridge\BImplementation\BIConcreteImplementation\ConcreteImplementationB.cs" />
+    <Compile Include="Structureral\Bridge\BImplementation\BIImplementation\IImplementation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
