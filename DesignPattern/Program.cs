@@ -1,4 +1,4 @@
-using DesignPattern.Structureral.Bridge;
+using DesignPattern.Structureral.Composite;
 
 namespace DesignPattern
 {
@@ -24,7 +24,8 @@ namespace DesignPattern
             //new VVClient().Main();
             //new TMClient().Main();
             //new AClient().Main();
-            new BBClient().Main();
+            //new BBClient().Main();
+            new CCClient().Main();
         }
     }
 }

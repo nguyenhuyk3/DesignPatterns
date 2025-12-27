@@ -153,6 +153,11 @@
     <Compile Include="Structureral\Bridge\BImplementation\BIConcreteImplementation\ConcreteImplementationA.cs" />
     <Compile Include="Structureral\Bridge\BImplementation\BIConcreteImplementation\ConcreteImplementationB.cs" />
     <Compile Include="Structureral\Bridge\BImplementation\BIImplementation\IImplementation.cs" />
+    <Compile Include="Structureral\Composite\CCClient.cs" />
+    <Compile Include="Structureral\Composite\CClient\Client.cs" />
+    <Compile Include="Structureral\Composite\CComponent\CAComponent\Component.cs" />
+    <Compile Include="Structureral\Composite\CComponent\CConcreteComponent\ConcreteComposite.cs" />
+    <Compile Include="Structureral\Composite\CComponent\CConcreteComponent\Leaf.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
