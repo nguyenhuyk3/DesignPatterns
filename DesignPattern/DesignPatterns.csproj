@@ -158,6 +158,13 @@
     <Compile Include="Structureral\Composite\CComponent\CAComponent\Component.cs" />
     <Compile Include="Structureral\Composite\CComponent\CConcreteComponent\ConcreteComposite.cs" />
     <Compile Include="Structureral\Composite\CComponent\CConcreteComponent\Leaf.cs" />
+    <Compile Include="Structureral\Decorator\DDClient.cs" />
+    <Compile Include="Structureral\Decorator\DClient\Client.cs" />
+    <Compile Include="Structureral\Decorator\DComponent\DAComponent\Component.cs" />
+    <Compile Include="Structureral\Decorator\DComponent\DConcreteComponent\ConcreteComponent.cs" />
+    <Compile Include="Structureral\Decorator\DDecorator\DADecorator\ADecorator.cs" />
+    <Compile Include="Structureral\Decorator\DDecorator\DConcreteDecorator\ConcreteDecoratorB.cs" />
+    <Compile Include="Structureral\Decorator\DDecorator\DConcreteDecorator\ConcreteDecoratorA.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
