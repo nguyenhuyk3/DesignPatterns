@@ -1,4 +1,4 @@
-using DesignPattern.Structureral.Decorator;
+using DesignPattern.Creational.Facade;
 
 namespace DesignPattern
 {
@@ -26,7 +26,8 @@ namespace DesignPattern
             //new AClient().Main();
             //new BBClient().Main();
             //new CCClient().Main();
-            new DDClient().Main();
+            //new DDClient().Main();
+            new FFClient().Main();
         }
     }
 }
