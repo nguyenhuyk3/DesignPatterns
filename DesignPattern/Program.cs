@@ -1,4 +1,4 @@
-using DesignPattern.Structureral.Proxy;
+using DesignPattern.Creational.Factory;
 
 namespace DesignPattern
 {
@@ -28,7 +28,8 @@ namespace DesignPattern
             //new CCClient().Main();
             //new DDClient().Main();
             //new FFClient().Main();
-            new PPClient().Main();
+            //new PPClient().Main();
+            new FClient().Main();
         }
     }
 }
