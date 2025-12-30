@@ -128,11 +128,11 @@
     <Compile Include="Creational\Builder\BClient.cs" />
     <Compile Include="Creational\Builder\BDirector\Director.cs" />
     <Compile Include="Creational\Builder\BProduct\Product.cs" />
-    <Compile Include="Creational\Facade\FFClient.cs" />
-    <Compile Include="Creational\Facade\FClient\Client.cs" />
-    <Compile Include="Creational\Facade\FFacade\FFFacade.cs" />
-    <Compile Include="Creational\Facade\FSubsystem\Subsystem1.cs" />
-    <Compile Include="Creational\Facade\FSubsystem\Subsystem2.cs" />
+    <Compile Include="Structureral\Facade\FFClient.cs" />
+    <Compile Include="Structureral\Facade\FClient\Client.cs" />
+    <Compile Include="Structureral\Facade\FFacade\FFFacade.cs" />
+    <Compile Include="Structureral\Facade\FSubsystem\Subsystem1.cs" />
+    <Compile Include="Structureral\Facade\FSubsystem\Subsystem2.cs" />
     <Compile Include="Creational\Factory\FClient.cs" />
     <Compile Include="Creational\Factory\FCreator\FACreator\ACreator.cs" />
     <Compile Include="Creational\Factory\FCreator\FConcreteCreator\ConcreteCreator1.cs" />
@@ -170,6 +170,11 @@
     <Compile Include="Structureral\Decorator\DDecorator\DADecorator\ADecorator.cs" />
     <Compile Include="Structureral\Decorator\DDecorator\DConcreteDecorator\ConcreteDecoratorB.cs" />
     <Compile Include="Structureral\Decorator\DDecorator\DConcreteDecorator\ConcreteDecoratorA.cs" />
+    <Compile Include="Structureral\Proxy\PClient\Client.cs" />
+    <Compile Include="Structureral\Proxy\PPClient.cs" />
+    <Compile Include="Structureral\Proxy\PProxy\PConcreteProxy\CProxy.cs" />
+    <Compile Include="Structureral\Proxy\PSubject\PConcreteSubject\RealSubject.cs" />
+    <Compile Include="Structureral\Proxy\PSubject\PISubject\ISubject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
