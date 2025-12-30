@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Creational.Facade.FSubsystem
+﻿namespace DesignPattern.Structureral.Facade.FSubsystem
 {
     // The Subsystem can accept requests either from the facade or client
     // directly. In any case, to the Subsystem, the Facade is yet another

@@ -1,4 +1,4 @@
-﻿namespace DesignPattern.Creational.Facade.FSubsystem
+﻿namespace DesignPattern.Structureral.Facade.FSubsystem
 {
     // Some facades can work with multiple subsystems at the same time.
     public class Subsystem2

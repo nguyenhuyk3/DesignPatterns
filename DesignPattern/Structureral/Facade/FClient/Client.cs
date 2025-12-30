@@ -1,7 +1,7 @@
-﻿using DesignPattern.Creational.Facade.FFacade;
+﻿using DesignPattern.Structureral.Facade.FFacade;
 using System;
 
-namespace DesignPattern.Creational.Facade.FClient
+namespace DesignPattern.Structureral.Facade.FClient
 {
     public class Client
     {

@@ -1,8 +1,8 @@
-﻿using DesignPattern.Creational.Facade.FClient;
-using DesignPattern.Creational.Facade.FFacade;
-using DesignPattern.Creational.Facade.FSubsystem;
+﻿using DesignPattern.Structureral.Facade.FClient;
+using DesignPattern.Structureral.Facade.FFacade;
+using DesignPattern.Structureral.Facade.FSubsystem;
 
-namespace DesignPattern.Creational.Facade
+namespace DesignPattern.Structureral.Facade
 {
     public class FFClient
     {
